@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "backend-challenge"
+version = "0.0.1"
+description = "This is a backend made with django rest framewwork for the hiring process of Woliver"
+authors = ["Fabio Bittencourt <fabio@adimplere.com.br>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django-filter = "^21.1"
+Markdown = "^3.3.6"
+djangorestframework = "^3.12.4"
+Django = "^3.2.9"
+
+[tool.poetry.dev-dependencies]
+black = "^21.11b1"
+flake8 = "^4.0.1"
+pytest = "^6.2.5"
+mypy = "^0.910"
+flake8-black = "^0.2.3"
+flake8-broken-line = "^0.4.0"
+flake8-bugbear = "^21.11.29"
+flake8-builtins = "^1.5.3"
+flake8-comprehensions = "^3.7.0"
+flake8-docstrings = "^1.6.0"
+flake8-eradicate = "^1.2.0"
+flake8-pytest-style = "^1.5.1"
+pep8-naming = "^0.12.1"
+pytest-cov = "^3.0.0"
+pytest-factoryboy = "^2.1.0"
+pytest-mock = "^3.6.1"
+pytest-sugar = "^0.9.4"
+python-dotenv = "^0.19.2"
+factory-boy = "^3.2.1"
+Faker = "^9.9.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
